@@ -1,0 +1,8 @@
+[package]
+name = "sigmaos-tu-bylaws"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Trusted-user governance documents — SigmaOS component inspired by Arch Linux infrastructure."
+
+[dependencies]
