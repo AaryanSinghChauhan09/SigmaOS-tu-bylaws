@@ -3,7 +3,7 @@ name = "SigmaOS-tu-bylaws"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "tu-bylaws component"
+description = "SigmaOS tu-bylaws component (Arch Linux inspired)"
 upstream = []
 
 [contract]
