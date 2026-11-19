@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos-tu-bylaws"
+name = "SigmaOS-tu-bylaws"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "Trusted-user governance documents — SigmaOS component inspired by Arch Linux infrastructure."
+license = "Apache-2.0"
+description = "SigmaOS tu_bylaws component"
+
+[lib]
+name = "tu_bylaws"
+path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
