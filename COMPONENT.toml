@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-tu-bylaws"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS tu-bylaws component (Arch Linux inspired)"
-upstream = []
+upstream = ["https://github.com/archlinux/tu-bylaws"]
 
 [contract]
-provides = ["component"]
+provides = ["bylaws-doc", "svp-engine", "vote-tally"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
+test_evidence = "cargo test: 9 tests pass (adoc parse, SVP lifecycle, thresholds)"
 next_milestone = "Hardware and runtime integration"
